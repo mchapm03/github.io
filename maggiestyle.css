@@ -1,14 +1,62 @@
+
 body {
-	background-color: #CCFFCC;
 	font-family: "Trebuchet MS", Helvetica, Tahoma, sans-serif;
-	max-width:95%;
-	margin-right: auto;
-	margin-left: auto;
-}
-img {
-	max-width: 50%;
+	background-image: url("img/back4.JPG");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment:fixed; 
+    background-size: 110%;
+    background-opacity: .5;
+	width:90%;
+	height:100%;
+	max-width:1000px;
+	margin: 0 auto 0 auto;
 }
 ul {
 	text-align: left;
     list-style-position: inside;
 }
+.menu{
+	margin:0;
+	padding:10px;
+	text-align:center;
+	background-color: black;
+	width:100%;
+}
+.menu p {
+	display: inline;
+	padding:10px;
+	font-size: 18px;
+}
+.menu a{
+	color:white;
+	text-decoration: none;
+}
+#main{
+	text-align: center;
+}
+.headerbig {
+	font-size: 72px;
+	font-family: "Playball", cursive;
+	color:black;
+}
+.headersmall {
+	font-size: 50px;
+	font-family: "Playball", cursive;
+	color:black;
+}
+#main img{
+	width:30%;
+}
+#bio{
+	padding-top: 10%;
+	text-align: center;
+	width:60%;
+	margin:auto;
+}
+#resume{
+	width:60%;
+	margin:auto;
+	padding-bottom: 50px;
+}
+
